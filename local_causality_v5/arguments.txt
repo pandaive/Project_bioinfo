@@ -1,0 +1,13 @@
+"egfr20_initial_state.txt" "pRB 1" "egfr20_pRB_sat.glc" "egfr20_actions.txt"
+
+"lp1_initial_state.txt" "cI 2" "lp1_glc_cI2_sat.glc" "lp1_actions.txt"
+
+"mscs_initial_state.txt" "d 2" "mscs_glc_d2_sat.glc" "mscs_actions.txt"
+
+"redir_initial_state.txt" "d 2" "redir_glc_d2_sat_1.glc" "redir_actions.txt"
+
+"tcrsig94_initial_state.txt" "ap1 1" "tcrsig94_ap1_sat_1.glc" "tcrsig94_actions.txt"
+
+"lp1_initial_state.txt" "cro 3" "lp1_cro3_sat.glc" "lp1_actions.txt"
+
+"fshA_initial_state.txt" "transcription 1" "fshA_transcription_A.glc" "fshA_actions.txt"

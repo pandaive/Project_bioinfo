@@ -1,0 +1,1 @@
+__coop0 1, bcl10 1, card11 1, card11bcl10malt1 7, ccblr 1, cd45 1, cd45cd4lckr 5, cd45lckp1tcrblckr 9, fynccblr 1, lckr 1, malt1 1, rac1r 1, tcrblckr 1, vav1rac1r 1, vav3rac1r 1, zap70ccblr 1, tcrlig 1, tcrligccblp1 2

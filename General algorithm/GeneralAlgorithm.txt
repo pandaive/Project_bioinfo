@@ -1,0 +1,63 @@
+Stack<processes>, Stack<objectives>, List<redirected_objectives>
+Stack<processes> <- process to find
+
+function solve(process p, objective_redirected obj_r) {
+	if (p.state != current state) {
+		if (obj_r != null)
+			objective <- obj_r;
+		else
+			if (p has an objective) {
+				objective <- objective(p);
+			}
+			else {
+				pop process from stack;
+				return empty list;
+			}
+		
+		Stack<objectives> + objective;
+		if (objective has redirection)
+			add all redirections to List<redirected_objectives>;
+		if (objective has a solution) {
+			for all solutions s {
+				if (s has a process) {
+					ordering of processes;
+					for all processes q in order {
+						Stack<processes> + q;
+						List<Solution> <- solveProcess(q, null);
+						if (List<Solution> is null)
+							continue with next solution;
+						List<Solution> + action done by q at the end of each solution;
+						if (last element of Stack<objectives> != objective) {
+							if (last element of Stack<processes> != q )
+								return List<Solution>
+							else 
+								return List<Solution> + solve(process, last objective from Stack<objectives>)
+						}
+						else {
+							if (q is needed for one of redirections r from List<redirected_objectives>) {
+								remove r from List<redirected_objectives>;
+								while (last objective on Stack<objectives> != objective being redirected with r)
+									pop objective; pop process;
+								pop objective;
+								Stack<objectives> + r;
+								return List<Solution>;
+							}
+						}	
+					}
+				}
+				else {
+					continue with next solution;
+				}
+			}
+		}
+		else {
+			pop objective; pop process;
+			return null;
+		}
+	}
+	else {
+		pop process from stack;
+		return empty list;
+	}
+
+}

@@ -1,0 +1,18 @@
+process N 1 -> objective N 0 1
+process __coop0 3 -> objective __coop0 3 3
+process __coop2 3 -> objective __coop2 2 3
+process cI 2 -> objective cI 0 2
+process cII 1 -> objective cII 0 1
+process cro 0 -> objective cro 0 0
+objective N 0 1 -> solution 0
+solution 0 -> process __coop0 3
+objective __coop0 3 3 -> solution 1
+objective __coop2 2 3 -> solution 2
+solution 2 -> process N 1
+objective cI 0 2 -> solution 4
+solution 4 -> process cII 1
+objective cII 0 1 -> solution 5
+solution 5 -> process __coop2 3
+objective cro 0 0 -> solution 6
+objective cI 0 2 -> solution 3
+solution 3 -> process cro 0

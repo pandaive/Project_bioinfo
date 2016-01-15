@@ -1,0 +1,21 @@
+process a 1 -> objective a 1 1
+process b 1 -> objective b 0 1
+process c 1 -> objective c 0 1
+process d 1 -> objective d 2 1
+process d 1 -> objective d 0 1
+process d 2 -> objective d 1 2
+process d 2 -> objective d 0 2
+objective a 1 1 -> solution 0
+objective b 0 1 -> solution 1
+solution 1 -> process d 1
+objective c 0 1 -> solution 2
+solution 2 -> process b 1
+objective d 0 1 -> solution 3
+solution 3 -> process a 1
+objective d 0 2 -> objective d 1 2
+objective d 0 2 -> solution 4
+solution 4 -> process c 1
+objective d 1 2 -> solution 5
+solution 5 -> process b 1
+solution 5 -> process c 1
+objective d 2 1 -> solution 6

@@ -1,0 +1,33 @@
+List<states> stateList;
+HashMap<states, List<states>> edges;
+
+function addNewEdge(states x, states y) {
+	edges[x] <- edges[x] + y
+}
+
+function constructGraph(actions) {
+	for each states s in statesList
+		for each action n in actions
+			if (s[a] = n.i and s[b] = n.j) {
+				newStates = s;
+				newStates[b] <- k;
+				if (statesList.contains(newStates) {
+					if (edges.containsKey(s)) {
+						if (!edges[s].contains(newStates) {
+							addNewEdge(s, newStates);
+						}
+					}
+					else {
+						edges.addKey(s);
+						addNewEdge(s, newStates);
+					}
+				}
+				else {
+					statesList <- statesList + newStates;
+					if (!edges.contains(s)) {
+						edges.addKey(s);
+					}
+					addNewEdge(s, newStates);
+				}
+			}
+}

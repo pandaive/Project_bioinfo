@@ -1,0 +1,313 @@
+digraph { 
+__coop101_3[shape=box];
+__coop101_3 -> O___coop101_0_3;
+
+__coop105_3[shape=box];
+__coop105_3 -> O___coop105_0_3;
+
+__coop106_3[shape=box];
+__coop106_3 -> O___coop106_0_3;
+
+__coop108_3[shape=box];
+__coop108_3 -> O___coop108_0_3;
+
+__coop113_3[shape=box];
+__coop113_3 -> O___coop113_0_3;
+
+__coop131_3[shape=box];
+__coop131_3 -> O___coop131_0_3;
+
+__coop149_3[shape=box];
+__coop149_3 -> O___coop149_0_3;
+
+__coop2_3[shape=box];
+__coop2_3 -> O___coop2_0_3;
+
+__coop54_3[shape=box];
+__coop54_3 -> O___coop54_0_3;
+
+__coop6_3[shape=box];
+__coop6_3 -> O___coop6_0_3;
+
+_reaction113_1[shape=box];
+_reaction113_1 -> O__reaction113_0_1;
+
+_reaction117_1[shape=box];
+_reaction117_1 -> O__reaction117_0_1;
+
+_reaction118_1[shape=box];
+_reaction118_1 -> O__reaction118_0_1;
+
+_reaction120_1[shape=box];
+_reaction120_1 -> O__reaction120_0_1;
+
+_reaction125_1[shape=box];
+_reaction125_1 -> O__reaction125_0_1;
+
+_reaction145_1[shape=box];
+_reaction145_1 -> O__reaction145_0_1;
+
+_reaction163_1[shape=box];
+_reaction163_1 -> O__reaction163_0_1;
+
+_reaction2_1[shape=box];
+_reaction2_1 -> O__reaction2_0_1;
+
+_reaction6_1[shape=box];
+_reaction6_1 -> O__reaction6_0_1;
+
+_reaction64_1[shape=box];
+_reaction64_1 -> O__reaction64_0_1;
+
+appl1_fsh_fshr_1[shape=box];
+appl1_fsh_fshr_1 -> O_appl1_fsh_fshr_1_1;
+
+d8brcamp_1[shape=box];
+d8brcamp_1 -> O_d8brcamp_1_1;
+
+d8cpt2mecamp_1[shape=box];
+d8cpt2mecamp_1 -> O_d8cpt2mecamp_1_1;
+
+forskolin_1[shape=box];
+forskolin_1 -> O_forskolin_1_1;
+
+foxo3a_0[shape=box];
+foxo3a_0 -> O_foxo3a_1_0;
+
+foxo3a_1[shape=box];
+foxo3a_1 -> O_foxo3a_0_1;
+foxo3a_1 -> O_foxo3a_1_1;
+
+mod_1_p85_1_p110_1[shape=box];
+mod_1_p85_1_p110_1 -> O_mod_1_p85_1_p110_1_1;
+
+p110_1[shape=box];
+p110_1 -> O_p110_1_1;
+
+p110_p85_1[shape=box];
+p110_p85_1 -> O_p110_p85_0_1;
+
+p85_1[shape=box];
+p85_1 -> O_p85_1_1;
+
+p85p110_3[shape=box];
+p85p110_3 -> O_p85p110_0_3;
+
+pakt_1[shape=box];
+pakt_1 -> O_pakt_1_1;
+
+pfoxo3a_1[shape=box];
+pfoxo3a_1 -> O_pfoxo3a_0_1;
+
+transcription_1[shape=box];
+transcription_1 -> O_transcription_0_1;
+O___coop101_0_3[label="__coop101 0 3"];
+pintsol0[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop101_0_3 -> pintsol0;
+pintsol0 -> foxo3a_1;
+pintsol0 -> p110_p85_1;
+
+O___coop105_0_3[label="__coop105 0 3"];
+pintsol1[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop105_0_3 -> pintsol1;
+pintsol1 -> d8brcamp_1;
+pintsol1 -> p85p110_3;
+
+O___coop106_0_3[label="__coop106 0 3"];
+pintsol2[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop106_0_3 -> pintsol2;
+pintsol2 -> d8cpt2mecamp_1;
+pintsol2 -> mod_1_p85_1_p110_1;
+
+O___coop108_0_3[label="__coop108 0 3"];
+pintsol3[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop108_0_3 -> pintsol3;
+pintsol3 -> d8cpt2mecamp_1;
+pintsol3 -> p85p110_3;
+
+O___coop113_0_3[label="__coop113 0 3"];
+pintsol4[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop113_0_3 -> pintsol4;
+pintsol4 -> forskolin_1;
+pintsol4 -> p85p110_3;
+
+O___coop131_0_3[label="__coop131 0 3"];
+pintsol5[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop131_0_3 -> pintsol5;
+pintsol5 -> forskolin_1;
+pintsol5 -> mod_1_p85_1_p110_1;
+
+O___coop149_0_3[label="__coop149 0 3"];
+pintsol6[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop149_0_3 -> pintsol6;
+pintsol6 -> d8brcamp_1;
+pintsol6 -> mod_1_p85_1_p110_1;
+
+O___coop2_0_3[label="__coop2 0 3"];
+pintsol7[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop2_0_3 -> pintsol7;
+pintsol7 -> appl1_fsh_fshr_1;
+pintsol7 -> mod_1_p85_1_p110_1;
+
+O___coop54_0_3[label="__coop54 0 3"];
+pintsol8[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop54_0_3 -> pintsol8;
+pintsol8 -> pakt_1;
+pintsol8 -> pfoxo3a_1;
+
+O___coop6_0_3[label="__coop6 0 3"];
+pintsol9[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop6_0_3 -> pintsol9;
+pintsol9 -> foxo3a_1;
+pintsol9 -> pakt_1;
+
+O__reaction113_0_1[label="_reaction113 0 1"];
+pintsol10[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction113_0_1 -> pintsol10;
+pintsol10 -> __coop101_3;
+
+O__reaction117_0_1[label="_reaction117 0 1"];
+pintsol11[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction117_0_1 -> pintsol11;
+pintsol11 -> __coop105_3;
+
+O__reaction118_0_1[label="_reaction118 0 1"];
+pintsol12[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction118_0_1 -> pintsol12;
+pintsol12 -> __coop106_3;
+
+O__reaction120_0_1[label="_reaction120 0 1"];
+pintsol13[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction120_0_1 -> pintsol13;
+pintsol13 -> __coop108_3;
+
+O__reaction125_0_1[label="_reaction125 0 1"];
+pintsol14[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction125_0_1 -> pintsol14;
+pintsol14 -> __coop113_3;
+
+O__reaction145_0_1[label="_reaction145 0 1"];
+pintsol15[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction145_0_1 -> pintsol15;
+pintsol15 -> __coop131_3;
+
+O__reaction163_0_1[label="_reaction163 0 1"];
+pintsol16[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction163_0_1 -> pintsol16;
+pintsol16 -> __coop149_3;
+
+O__reaction2_0_1[label="_reaction2 0 1"];
+pintsol17[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction2_0_1 -> pintsol17;
+pintsol17 -> __coop2_3;
+
+O__reaction6_0_1[label="_reaction6 0 1"];
+pintsol18[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction6_0_1 -> pintsol18;
+pintsol18 -> __coop6_3;
+
+O__reaction64_0_1[label="_reaction64 0 1"];
+pintsol19[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O__reaction64_0_1 -> pintsol19;
+pintsol19 -> __coop54_3;
+
+O_appl1_fsh_fshr_1_1[label="appl1_fsh_fshr 1 1"];
+pintsol20[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_appl1_fsh_fshr_1_1 -> pintsol20;
+
+
+O_d8brcamp_1_1[label="d8brcamp 1 1"];
+pintsol21[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_d8brcamp_1_1 -> pintsol21;
+
+
+O_d8cpt2mecamp_1_1[label="d8cpt2mecamp 1 1"];
+pintsol22[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_d8cpt2mecamp_1_1 -> pintsol22;
+
+
+O_forskolin_1_1[label="forskolin 1 1"];
+pintsol23[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_forskolin_1_1 -> pintsol23;
+
+
+O_foxo3a_0_1[label="foxo3a 0 1"];
+pintsol24[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_foxo3a_0_1 -> pintsol24;
+pintsol24 -> _reaction64_1;
+
+O_foxo3a_1_0[label="foxo3a 1 0"];
+pintsol25[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_foxo3a_1_0 -> pintsol25;
+pintsol25 -> _reaction113_1;
+pintsol26[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_foxo3a_1_0 -> pintsol26;
+pintsol26 -> _reaction6_1;
+
+O_foxo3a_1_1[label="foxo3a 1 1"];
+pintsol27[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_foxo3a_1_1 -> pintsol27;
+
+
+O_mod_1_p85_1_p110_1_1[label="mod_1_p85_1_p110 1 1"];
+pintsol28[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_mod_1_p85_1_p110_1_1 -> pintsol28;
+
+
+O_p110_1_1[label="p110 1 1"];
+pintsol29[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_1_1 -> pintsol29;
+
+
+O_p110_p85_0_1[label="p110_p85 0 1"];
+pintsol30[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol30;
+pintsol30 -> _reaction117_1;
+pintsol31[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol31;
+pintsol31 -> _reaction118_1;
+pintsol32[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol32;
+pintsol32 -> _reaction120_1;
+pintsol33[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol33;
+pintsol33 -> _reaction125_1;
+pintsol34[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol34;
+pintsol34 -> _reaction145_1;
+pintsol35[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol35;
+pintsol35 -> _reaction163_1;
+pintsol36[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p110_p85_0_1 -> pintsol36;
+pintsol36 -> _reaction2_1;
+
+O_p85_1_1[label="p85 1 1"];
+pintsol37[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p85_1_1 -> pintsol37;
+
+
+O_p85p110_0_3[label="p85p110 0 3"];
+pintsol38[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_p85p110_0_3 -> pintsol38;
+pintsol38 -> p110_1;
+pintsol38 -> p85_1;
+
+O_pakt_1_1[label="pakt 1 1"];
+pintsol39[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_pakt_1_1 -> pintsol39;
+
+
+O_pfoxo3a_0_1[label="pfoxo3a 0 1"];
+pintsol40[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_pfoxo3a_0_1 -> pintsol40;
+pintsol40 -> _reaction6_1;
+pintsol41[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_pfoxo3a_0_1 -> pintsol41;
+pintsol41 -> _reaction113_1;
+
+O_transcription_0_1[label="transcription 0 1"];
+pintsol42[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_transcription_0_1 -> pintsol42;
+pintsol42 -> foxo3a_0;
+}

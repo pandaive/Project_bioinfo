@@ -1,0 +1,559 @@
+process __coop0 3 -> objective __coop0 0 3
+process __coop1 3 -> objective __coop1 0 3
+process __coop2 3 -> objective __coop2 0 3
+process __coop4 3 -> objective __coop4 0 3
+process _reaction101 1 -> objective _reaction101 0 1
+process _reaction103 1 -> objective _reaction103 0 1
+process _reaction105 1 -> objective _reaction105 0 1
+process _reaction11 1 -> objective _reaction11 0 1
+process _reaction112 1 -> objective _reaction112 0 1
+process _reaction116 1 -> objective _reaction116 0 1
+process _reaction131 1 -> objective _reaction131 0 1
+process _reaction133 1 -> objective _reaction133 0 1
+process _reaction134 1 -> objective _reaction134 0 1
+process _reaction136 1 -> objective _reaction136 0 1
+process _reaction138 1 -> objective _reaction138 0 1
+process _reaction14 1 -> objective _reaction14 0 1
+process _reaction141 1 -> objective _reaction141 0 1
+process _reaction142 1 -> objective _reaction142 0 1
+process _reaction146 1 -> objective _reaction146 0 1
+process _reaction15 1 -> objective _reaction15 0 1
+process _reaction150 1 -> objective _reaction150 0 1
+process _reaction155 1 -> objective _reaction155 0 1
+process _reaction161 1 -> objective _reaction161 0 1
+process _reaction165 1 -> objective _reaction165 0 1
+process _reaction174 1 -> objective _reaction174 0 1
+process _reaction177 1 -> objective _reaction177 0 1
+process _reaction178 1 -> objective _reaction178 0 1
+process _reaction18 1 -> objective _reaction18 0 1
+process _reaction182 1 -> objective _reaction182 0 1
+process _reaction23 1 -> objective _reaction23 0 1
+process _reaction26 1 -> objective _reaction26 0 1
+process _reaction35 1 -> objective _reaction35 0 1
+process _reaction36 1 -> objective _reaction36 0 1
+process _reaction37 1 -> objective _reaction37 0 1
+process _reaction38 1 -> objective _reaction38 0 1
+process _reaction4 1 -> objective _reaction4 0 1
+process _reaction40 1 -> objective _reaction40 0 1
+process _reaction41 1 -> objective _reaction41 0 1
+process _reaction44 1 -> objective _reaction44 0 1
+process _reaction45 1 -> objective _reaction45 0 1
+process _reaction46 1 -> objective _reaction46 0 1
+process _reaction47 1 -> objective _reaction47 0 1
+process _reaction48 1 -> objective _reaction48 0 1
+process _reaction49 1 -> objective _reaction49 0 1
+process _reaction50 1 -> objective _reaction50 0 1
+process _reaction51 1 -> objective _reaction51 0 1
+process _reaction61 1 -> objective _reaction61 0 1
+process _reaction7 1 -> objective _reaction7 0 1
+process _reaction77 1 -> objective _reaction77 0 1
+process _reaction78 1 -> objective _reaction78 0 1
+process _reaction81 1 -> objective _reaction81 0 1
+process _reaction89 1 -> objective _reaction89 0 1
+process _reaction93 1 -> objective _reaction93 0 1
+process _reaction96 1 -> objective _reaction96 0 1
+process _reaction97 1 -> objective _reaction97 0 1
+process ac 1 -> objective ac 0 1
+process acphistone_h3 1 -> objective acphistone_h3 0 1
+process amp 1 -> objective amp 1 1
+process ampfsh_fshr 3 -> objective ampfsh_fshr 0 3
+process ap1 1 -> objective ap1 1 1
+process ap1_promoter 1 -> objective ap1_promoter 0 1
+process ap1promoterperk 7 -> objective ap1promoterperk 0 7
+process ap1promoterpkac 7 -> objective ap1promoterpkac 0 7
+process ap1promoterpp38mapk 7 -> objective ap1promoterpp38mapk 0 7
+process atp 1 -> objective atp 1 1
+process atpac 3 -> objective atpac 0 3
+process atpfsh_fshr 3 -> objective atpfsh_fshr 0 3
+process atpmodac 3 -> objective atpmodac 0 3
+process barrestin 1 -> objective barrestin 1 1
+process barrestinfsh_fshr 3 -> objective barrestinfsh_fshr 0 3
+process beta_arrestin 1 -> objective beta_arrestin 1 1
+process beta_arrestin_fsh_p_1fshr 1 -> objective beta_arrestin_fsh_p_1fshr 0 1
+process beta_arrestinfsh_p_1fshr 3 -> objective beta_arrestinfsh_p_1fshr 0 3
+process betacatenin 1 -> objective betacatenin 1 1
+process betacatenin_pcreb_promoter_sf1 1 -> objective betacatenin_pcreb_promoter_sf1 0 1
+process camp 0 -> objective camp 1 0
+process camp 0 -> objective camp 0 0
+process camp 1 -> objective camp 0 1
+process camp_epac 1 -> objective camp_epac 0 1
+process campmodpde 3 -> objective campmodpde 0 3
+process camppde 3 -> objective camppde 0 3
+process creb 1 -> objective creb 1 1
+process crebcamp 3 -> objective crebcamp 0 3
+process crebpkac 3 -> objective crebpkac 0 3
+process d8cpt2mecamp 1 -> objective d8cpt2mecamp 1 1
+process epac 1 -> objective epac 1 1
+process epaccamp 3 -> objective epaccamp 0 3
+process epacfsh_fshr 3 -> objective epacfsh_fshr 0 3
+process erk 1 -> objective erk 1 1
+process erkbarrestin 3 -> objective erkbarrestin 0 3
+process erkbeta_arrestin_fsh_p_1fshr 3 -> objective erkbeta_arrestin_fsh_p_1fshr 0 3
+process erkfsh_fshr 3 -> objective erkfsh_fshr 0 3
+process erkgai_gtp 3 -> objective erkgai_gtp 0 3
+process erkgas_gtp 3 -> objective erkgas_gtp 0 3
+process erkgrk5_6 3 -> objective erkgrk5_6 0 3
+process erkgtp_modrap1 3 -> objective erkgtp_modrap1 0 3
+process erkmodbarrestin 3 -> objective erkmodbarrestin 0 3
+process erkmodgrk5_6 3 -> objective erkmodgrk5_6 0 3
+process erkpbarrestin 3 -> objective erkpbarrestin 0 3
+process erkpmek 3 -> objective erkpmek 0 3
+process forskolin 1 -> objective forskolin 1 1
+process foxo3apfoxo1pfoxo3a 0 -> objective foxo3apfoxo1pfoxo3a 0 0
+process fsh_fshr 1 -> objective fsh_fshr 1 1
+process fsh_fshr_gas_gtp 1 -> objective fsh_fshr_gas_gtp 0 1
+process fsh_fshrgas_gtpd14_3_3tau_fsh_fshr 6 -> objective fsh_fshrgas_gtpd14_3_3tau_fsh_fshr 0 6
+process fsh_fshrgrk_5_6 3 -> objective fsh_fshrgrk_5_6 0 3
+process fsh_p_1fshr 1 -> objective fsh_p_1fshr 0 1
+process gai 1 -> objective gai 1 1
+process gai_gtp 1 -> objective gai_gtp 0 1
+process gaifsh_fshr 3 -> objective gaifsh_fshr 0 3
+process gas_gtp 1 -> objective gas_gtp 1 1
+process gdp_rap1 1 -> objective gdp_rap1 1 1
+process gdp_rap1modepac 3 -> objective gdp_rap1modepac 0 3
+process grk5_6 1 -> objective grk5_6 1 1
+process grk5_6fsh_fshr 3 -> objective grk5_6fsh_fshr 0 3
+process grk_5_6 1 -> objective grk_5_6 1 1
+process gtp_modrap1 1 -> objective gtp_modrap1 0 1
+process gtp_ras 1 -> objective gtp_ras 1 1
+process histone_h3 1 -> objective histone_h3 1 1
+process histone_h3pkac 3 -> objective histone_h3pkac 0 3
+process mek 1 -> objective mek 1 1
+process mekfsh_fshr 3 -> objective mekfsh_fshr 0 3
+process mekpraf1 3 -> objective mekpraf1 0 3
+process modac 1 -> objective modac 1 1
+process modacgas_gtp 2 -> objective modacgas_gtp 0 2
+process modbarrestin 1 -> objective modbarrestin 0 1
+process modepac 1 -> objective modepac 0 1
+process modgrk5_6 1 -> objective modgrk5_6 0 1
+process modpde 1 -> objective modpde 0 1
+process p38mapk 1 -> objective p38mapk 1 1
+process p38mapkgtp_modrap1 3 -> objective p38mapkgtp_modrap1 0 3
+process p38mapkpkac 3 -> objective p38mapkpkac 0 3
+process pbarrestin 1 -> objective pbarrestin 1 1
+process pcreb 1 -> objective pcreb 0 1
+process pcrebgsk3beta 2 -> objective pcrebgsk3beta 0 2
+process pde 1 -> objective pde 1 1
+process pdefsh_fshr_gas_gtp 3 -> objective pdefsh_fshr_gas_gtp 0 3
+process perk 1 -> objective perk 0 1
+process pka 1 -> objective pka 1 1
+process pkac 1 -> objective pkac 0 1
+process pkacamp 2 -> objective pkacamp 3 2
+process pkacamp 2 -> objective pkacamp 0 2
+process pkacamp 3 -> objective pkacamp 2 3
+process pkacamp 3 -> objective pkacamp 0 3
+process pkacamp_epac 3 -> objective pkacamp_epac 0 3
+process pkad8cpt2mecamp 3 -> objective pkad8cpt2mecamp 0 3
+process pkaforskolin 3 -> objective pkaforskolin 0 3
+process pmek 1 -> objective pmek 0 1
+process pp38mapk 1 -> objective pp38mapk 0 1
+process praf1 1 -> objective praf1 0 1
+process promoter 1 -> objective promoter 1 1
+process raf1 1 -> objective raf1 1 1
+process raf1fsh_fshr 3 -> objective raf1fsh_fshr 0 3
+process raf1gtp_ras 3 -> objective raf1gtp_ras 0 3
+process raf1pkac 3 -> objective raf1pkac 0 3
+process sf1 1 -> objective sf1 1 1
+process sf1betacateninpromoter 7 -> objective sf1betacateninpromoter 0 7
+process transcription 1 -> objective transcription 0 1
+objective __coop0 0 3 -> solution 0
+solution 0 -> process pcrebgsk3beta 2
+solution 0 -> process sf1betacateninpromoter 7
+objective __coop1 0 3 -> solution 1
+solution 1 -> process betacatenin_pcreb_promoter_sf1 1
+solution 1 -> process foxo3apfoxo1pfoxo3a 0
+objective __coop2 0 3 -> solution 2
+solution 2 -> process ap1_promoter 1
+solution 2 -> process foxo3apfoxo1pfoxo3a 0
+objective __coop4 0 3 -> solution 3
+solution 3 -> process acphistone_h3 1
+solution 3 -> process foxo3apfoxo1pfoxo3a 0
+objective _reaction101 0 1 -> solution 4
+solution 4 -> process erkpbarrestin 3
+objective _reaction103 0 1 -> solution 5
+solution 5 -> process erkgrk5_6 3
+objective _reaction105 0 1 -> solution 6
+solution 6 -> process atpfsh_fshr 3
+objective _reaction11 0 1 -> solution 7
+solution 7 -> process ap1promoterpp38mapk 7
+objective _reaction112 0 1 -> solution 8
+solution 8 -> process camppde 3
+objective _reaction116 0 1 -> solution 9
+solution 9 -> process pkaforskolin 3
+objective _reaction131 0 1 -> solution 10
+solution 10 -> process grk5_6fsh_fshr 3
+objective _reaction133 0 1 -> solution 11
+solution 11 -> process pkacamp 2
+objective _reaction134 0 1 -> solution 12
+solution 12 -> process mekfsh_fshr 3
+objective _reaction136 0 1 -> solution 13
+solution 13 -> process crebpkac 3
+objective _reaction138 0 1 -> solution 14
+solution 14 -> process pkacamp_epac 3
+objective _reaction14 0 1 -> solution 15
+solution 15 -> process histone_h3pkac 3
+objective _reaction141 0 1 -> solution 16
+solution 16 -> process erkgai_gtp 3
+objective _reaction142 0 1 -> solution 17
+solution 17 -> process erkbarrestin 3
+objective _reaction146 0 1 -> solution 18
+solution 18 -> process erkmodbarrestin 3
+objective _reaction15 0 1 -> solution 19
+solution 19 -> process crebpkac 3
+objective _reaction150 0 1 -> solution 20
+solution 20 -> process modacgas_gtp 2
+objective _reaction155 0 1 -> solution 21
+solution 21 -> process pkad8cpt2mecamp 3
+objective _reaction161 0 1 -> solution 22
+solution 22 -> process gaifsh_fshr 3
+objective _reaction165 0 1 -> solution 23
+solution 23 -> process crebcamp 3
+objective _reaction174 0 1 -> solution 24
+solution 24 -> process ampfsh_fshr 3
+objective _reaction177 0 1 -> solution 25
+solution 25 -> process erkbeta_arrestin_fsh_p_1fshr 3
+objective _reaction178 0 1 -> solution 26
+solution 26 -> process fsh_fshrgrk_5_6 3
+objective _reaction18 0 1 -> solution 27
+solution 27 -> process __coop0 3
+objective _reaction182 0 1 -> solution 28
+solution 28 -> process beta_arrestinfsh_p_1fshr 3
+objective _reaction23 0 1 -> solution 29
+solution 29 -> process ap1promoterperk 7
+objective _reaction26 0 1 -> solution 30
+solution 30 -> process mekpraf1 3
+objective _reaction35 0 1 -> solution 31
+solution 31 -> process raf1gtp_ras 3
+objective _reaction36 0 1 -> solution 32
+solution 32 -> process erkpmek 3
+objective _reaction37 0 1 -> solution 33
+solution 33 -> process epaccamp 3
+objective _reaction38 0 1 -> solution 34
+solution 34 -> process campmodpde 3
+objective _reaction4 0 1 -> solution 35
+solution 35 -> process fsh_fshrgas_gtpd14_3_3tau_fsh_fshr 6
+objective _reaction40 0 1 -> solution 36
+solution 36 -> process raf1pkac 3
+objective _reaction41 0 1 -> solution 37
+solution 37 -> process atpmodac 3
+objective _reaction44 0 1 -> solution 38
+solution 38 -> process p38mapkgtp_modrap1 3
+objective _reaction45 0 1 -> solution 39
+solution 39 -> process pdefsh_fshr_gas_gtp 3
+objective _reaction46 0 1 -> solution 40
+solution 40 -> process pkacamp 3
+objective _reaction47 0 1 -> solution 41
+solution 41 -> process erkpmek 3
+objective _reaction48 0 1 -> solution 42
+solution 42 -> process p38mapkpkac 3
+objective _reaction49 0 1 -> solution 43
+solution 43 -> process mekpraf1 3
+objective _reaction50 0 1 -> solution 44
+solution 44 -> process erkgtp_modrap1 3
+objective _reaction51 0 1 -> solution 45
+solution 45 -> process gdp_rap1modepac 3
+objective _reaction61 0 1 -> solution 46
+solution 46 -> process erkfsh_fshr 3
+objective _reaction7 0 1 -> solution 47
+solution 47 -> process ap1promoterpkac 7
+objective _reaction77 0 1 -> solution 48
+solution 48 -> process raf1fsh_fshr 3
+objective _reaction78 0 1 -> solution 49
+solution 49 -> process epacfsh_fshr 3
+objective _reaction81 0 1 -> solution 50
+solution 50 -> process atpac 3
+objective _reaction89 0 1 -> solution 51
+solution 51 -> process mekpraf1 3
+objective _reaction93 0 1 -> solution 52
+solution 52 -> process barrestinfsh_fshr 3
+objective _reaction96 0 1 -> solution 53
+solution 53 -> process erkmodgrk5_6 3
+objective _reaction97 0 1 -> solution 54
+solution 54 -> process erkgas_gtp 3
+objective ac 0 1 -> solution 55
+solution 55 -> process _reaction150 1
+objective acphistone_h3 0 1 -> solution 56
+solution 56 -> process _reaction14 1
+objective amp 1 1 -> solution 57
+objective ampfsh_fshr 0 3 -> solution 58
+solution 58 -> process amp 1
+solution 58 -> process fsh_fshr 1
+objective ap1 1 1 -> solution 59
+objective ap1_promoter 0 1 -> solution 60
+solution 60 -> process _reaction11 1
+objective ap1_promoter 0 1 -> solution 61
+solution 61 -> process _reaction23 1
+objective ap1_promoter 0 1 -> solution 62
+solution 62 -> process _reaction7 1
+objective ap1promoterperk 0 7 -> solution 63
+solution 63 -> process ap1 1
+solution 63 -> process perk 1
+solution 63 -> process promoter 1
+objective ap1promoterpkac 0 7 -> solution 64
+solution 64 -> process ap1 1
+solution 64 -> process pkac 1
+solution 64 -> process promoter 1
+objective ap1promoterpp38mapk 0 7 -> solution 65
+solution 65 -> process ap1 1
+solution 65 -> process pp38mapk 1
+solution 65 -> process promoter 1
+objective atp 1 1 -> solution 66
+objective atpac 0 3 -> solution 67
+solution 67 -> process ac 1
+solution 67 -> process atp 1
+objective atpfsh_fshr 0 3 -> solution 68
+solution 68 -> process atp 1
+solution 68 -> process fsh_fshr 1
+objective atpmodac 0 3 -> solution 69
+solution 69 -> process atp 1
+solution 69 -> process modac 1
+objective barrestin 1 1 -> solution 70
+objective barrestinfsh_fshr 0 3 -> solution 71
+solution 71 -> process barrestin 1
+solution 71 -> process fsh_fshr 1
+objective beta_arrestin 1 1 -> solution 72
+objective beta_arrestin_fsh_p_1fshr 0 1 -> solution 73
+solution 73 -> process _reaction182 1
+objective beta_arrestinfsh_p_1fshr 0 3 -> solution 74
+solution 74 -> process beta_arrestin 1
+solution 74 -> process fsh_p_1fshr 1
+objective betacatenin 1 1 -> solution 75
+objective betacatenin_pcreb_promoter_sf1 0 1 -> solution 76
+solution 76 -> process _reaction18 1
+objective camp 0 0 -> solution 77
+objective camp 0 1 -> solution 78
+solution 78 -> process _reaction105 1
+objective camp 0 1 -> solution 79
+solution 79 -> process _reaction174 1
+objective camp 0 1 -> solution 80
+solution 80 -> process _reaction41 1
+objective camp 0 1 -> solution 81
+solution 81 -> process _reaction81 1
+objective camp 1 0 -> solution 82
+solution 82 -> process _reaction38 1
+objective camp 1 0 -> solution 83
+solution 83 -> process _reaction112 1
+objective camp_epac 0 1 -> solution 84
+solution 84 -> process _reaction78 1
+objective campmodpde 0 3 -> solution 85
+solution 85 -> process camp 1
+solution 85 -> process modpde 1
+objective camppde 0 3 -> solution 86
+solution 86 -> process camp 1
+solution 86 -> process pde 1
+objective creb 1 1 -> solution 87
+objective crebcamp 0 3 -> solution 88
+solution 88 -> process camp 1
+solution 88 -> process creb 1
+objective crebpkac 0 3 -> solution 89
+solution 89 -> process creb 1
+solution 89 -> process pkac 1
+objective d8cpt2mecamp 1 1 -> solution 90
+objective epac 1 1 -> solution 91
+objective epaccamp 0 3 -> solution 92
+solution 92 -> process camp 1
+solution 92 -> process epac 1
+objective epacfsh_fshr 0 3 -> solution 93
+solution 93 -> process epac 1
+solution 93 -> process fsh_fshr 1
+objective erk 1 1 -> solution 94
+objective erkbarrestin 0 3 -> solution 95
+solution 95 -> process barrestin 1
+solution 95 -> process erk 1
+objective erkbeta_arrestin_fsh_p_1fshr 0 3 -> solution 96
+solution 96 -> process beta_arrestin_fsh_p_1fshr 1
+solution 96 -> process erk 1
+objective erkfsh_fshr 0 3 -> solution 97
+solution 97 -> process erk 1
+solution 97 -> process fsh_fshr 1
+objective erkgai_gtp 0 3 -> solution 98
+solution 98 -> process erk 1
+solution 98 -> process gai_gtp 1
+objective erkgas_gtp 0 3 -> solution 99
+solution 99 -> process erk 1
+solution 99 -> process gas_gtp 1
+objective erkgrk5_6 0 3 -> solution 100
+solution 100 -> process erk 1
+solution 100 -> process grk5_6 1
+objective erkgtp_modrap1 0 3 -> solution 101
+solution 101 -> process erk 1
+solution 101 -> process gtp_modrap1 1
+objective erkmodbarrestin 0 3 -> solution 102
+solution 102 -> process erk 1
+solution 102 -> process modbarrestin 1
+objective erkmodgrk5_6 0 3 -> solution 103
+solution 103 -> process erk 1
+solution 103 -> process modgrk5_6 1
+objective erkpbarrestin 0 3 -> solution 104
+solution 104 -> process erk 1
+solution 104 -> process pbarrestin 1
+objective erkpmek 0 3 -> solution 105
+solution 105 -> process erk 1
+solution 105 -> process pmek 1
+objective forskolin 1 1 -> solution 106
+objective foxo3apfoxo1pfoxo3a 0 0 -> solution 107
+objective fsh_fshr 1 1 -> solution 108
+objective fsh_fshr_gas_gtp 0 1 -> solution 109
+solution 109 -> process _reaction4 1
+objective fsh_fshrgas_gtpd14_3_3tau_fsh_fshr 0 6 -> solution 110
+solution 110 -> process fsh_fshr 1
+solution 110 -> process gas_gtp 1
+objective fsh_fshrgrk_5_6 0 3 -> solution 111
+solution 111 -> process fsh_fshr 1
+solution 111 -> process grk_5_6 1
+objective fsh_p_1fshr 0 1 -> solution 112
+solution 112 -> process _reaction178 1
+objective gai 1 1 -> solution 113
+objective gai_gtp 0 1 -> solution 114
+solution 114 -> process _reaction161 1
+objective gaifsh_fshr 0 3 -> solution 115
+solution 115 -> process fsh_fshr 1
+solution 115 -> process gai 1
+objective gas_gtp 1 1 -> solution 116
+objective gdp_rap1 1 1 -> solution 117
+objective gdp_rap1modepac 0 3 -> solution 118
+solution 118 -> process gdp_rap1 1
+solution 118 -> process modepac 1
+objective grk5_6 1 1 -> solution 119
+objective grk5_6fsh_fshr 0 3 -> solution 120
+solution 120 -> process fsh_fshr 1
+solution 120 -> process grk5_6 1
+objective grk_5_6 1 1 -> solution 121
+objective gtp_modrap1 0 1 -> solution 122
+solution 122 -> process _reaction51 1
+objective gtp_ras 1 1 -> solution 123
+objective histone_h3 1 1 -> solution 124
+objective histone_h3pkac 0 3 -> solution 125
+solution 125 -> process histone_h3 1
+solution 125 -> process pkac 1
+objective mek 1 1 -> solution 126
+objective mekfsh_fshr 0 3 -> solution 127
+solution 127 -> process fsh_fshr 1
+solution 127 -> process mek 1
+objective mekpraf1 0 3 -> solution 128
+solution 128 -> process mek 1
+solution 128 -> process praf1 1
+objective modac 1 1 -> solution 129
+objective modacgas_gtp 0 2 -> solution 130
+solution 130 -> process modac 1
+objective modbarrestin 0 1 -> solution 131
+solution 131 -> process _reaction93 1
+objective modepac 0 1 -> solution 132
+solution 132 -> process _reaction37 1
+objective modgrk5_6 0 1 -> solution 133
+solution 133 -> process _reaction131 1
+objective modpde 0 1 -> solution 134
+solution 134 -> process _reaction45 1
+objective p38mapk 1 1 -> solution 135
+objective p38mapkgtp_modrap1 0 3 -> solution 136
+solution 136 -> process gtp_modrap1 1
+solution 136 -> process p38mapk 1
+objective p38mapkpkac 0 3 -> solution 137
+solution 137 -> process p38mapk 1
+solution 137 -> process pkac 1
+objective pbarrestin 1 1 -> solution 138
+objective pcreb 0 1 -> solution 139
+solution 139 -> process _reaction136 1
+objective pcreb 0 1 -> solution 140
+solution 140 -> process _reaction15 1
+objective pcreb 0 1 -> solution 141
+solution 141 -> process _reaction165 1
+objective pcrebgsk3beta 0 2 -> solution 142
+solution 142 -> process pcreb 1
+objective pde 1 1 -> solution 143
+objective pdefsh_fshr_gas_gtp 0 3 -> solution 144
+solution 144 -> process fsh_fshr_gas_gtp 1
+solution 144 -> process pde 1
+objective perk 0 1 -> solution 145
+solution 145 -> process _reaction101 1
+objective perk 0 1 -> solution 146
+solution 146 -> process _reaction103 1
+objective perk 0 1 -> solution 147
+solution 147 -> process _reaction141 1
+objective perk 0 1 -> solution 148
+solution 148 -> process _reaction142 1
+objective perk 0 1 -> solution 149
+solution 149 -> process _reaction146 1
+objective perk 0 1 -> solution 150
+solution 150 -> process _reaction177 1
+objective perk 0 1 -> solution 151
+solution 151 -> process _reaction36 1
+objective perk 0 1 -> solution 152
+solution 152 -> process _reaction47 1
+objective perk 0 1 -> solution 153
+solution 153 -> process _reaction50 1
+objective perk 0 1 -> solution 154
+solution 154 -> process _reaction61 1
+objective perk 0 1 -> solution 155
+solution 155 -> process _reaction96 1
+objective perk 0 1 -> solution 156
+solution 156 -> process _reaction97 1
+objective pka 1 1 -> solution 157
+objective pkac 0 1 -> solution 158
+solution 158 -> process _reaction116 1
+objective pkac 0 1 -> solution 159
+solution 159 -> process _reaction133 1
+objective pkac 0 1 -> solution 160
+solution 160 -> process _reaction138 1
+objective pkac 0 1 -> solution 161
+solution 161 -> process _reaction155 1
+objective pkac 0 1 -> solution 162
+solution 162 -> process _reaction46 1
+objective pkacamp 0 2 -> solution 163
+solution 163 -> process pka 1
+objective pkacamp 0 3 -> solution 164
+solution 164 -> process camp 1
+solution 164 -> process pka 1
+objective pkacamp 2 3 -> solution 165
+solution 165 -> process camp 1
+objective pkacamp 3 2 -> solution 166
+solution 166 -> process camp 0
+objective pkacamp_epac 0 3 -> solution 167
+solution 167 -> process camp_epac 1
+solution 167 -> process pka 1
+objective pkad8cpt2mecamp 0 3 -> solution 168
+solution 168 -> process d8cpt2mecamp 1
+solution 168 -> process pka 1
+objective pkaforskolin 0 3 -> solution 169
+solution 169 -> process forskolin 1
+solution 169 -> process pka 1
+objective pmek 0 1 -> solution 170
+solution 170 -> process _reaction134 1
+objective pmek 0 1 -> solution 171
+solution 171 -> process _reaction26 1
+objective pmek 0 1 -> solution 172
+solution 172 -> process _reaction49 1
+objective pmek 0 1 -> solution 173
+solution 173 -> process _reaction89 1
+objective pp38mapk 0 1 -> solution 174
+solution 174 -> process _reaction44 1
+objective pp38mapk 0 1 -> solution 175
+solution 175 -> process _reaction48 1
+objective praf1 0 1 -> solution 176
+solution 176 -> process _reaction35 1
+objective praf1 0 1 -> solution 177
+solution 177 -> process _reaction40 1
+objective praf1 0 1 -> solution 178
+solution 178 -> process _reaction77 1
+objective promoter 1 1 -> solution 179
+objective raf1 1 1 -> solution 180
+objective raf1fsh_fshr 0 3 -> solution 181
+solution 181 -> process fsh_fshr 1
+solution 181 -> process raf1 1
+objective raf1gtp_ras 0 3 -> solution 182
+solution 182 -> process gtp_ras 1
+solution 182 -> process raf1 1
+objective raf1pkac 0 3 -> solution 183
+solution 183 -> process pkac 1
+solution 183 -> process raf1 1
+objective sf1 1 1 -> solution 184
+objective sf1betacateninpromoter 0 7 -> solution 185
+solution 185 -> process betacatenin 1
+solution 185 -> process promoter 1
+solution 185 -> process sf1 1
+objective transcription 0 1 -> solution 186
+solution 186 -> process __coop1 3
+objective transcription 0 1 -> solution 187
+solution 187 -> process __coop2 3
+objective transcription 0 1 -> solution 188
+solution 188 -> process __coop4 3

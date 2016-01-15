@@ -1,0 +1,89 @@
+Solution 1:
+foxo3a 1 -> __coop101 0 2
+p85 1 -> p85p110 0 2
+p110 1 -> p85p110 2 3
+p85p110 3 -> __coop105 0 2
+d8brcamp 1 -> __coop105 2 3
+__coop105 3 -> _reaction117 0 1
+_reaction117 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 2:
+foxo3a 1 -> __coop101 0 2
+mod_1_p85_1_p110 1 -> __coop106 0 2
+d8cpt2mecamp 1 -> __coop106 2 3
+__coop106 3 -> _reaction118 0 1
+_reaction118 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 3:
+foxo3a 1 -> __coop101 0 2
+p85 1 -> p85p110 0 2
+p110 1 -> p85p110 2 3
+p85p110 3 -> __coop108 0 2
+d8cpt2mecamp 1 -> __coop108 2 3
+__coop108 3 -> _reaction120 0 1
+_reaction120 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 4:
+foxo3a 1 -> __coop101 0 2
+p85 1 -> p85p110 0 2
+p110 1 -> p85p110 2 3
+p85p110 3 -> __coop113 0 2
+forskolin 1 -> __coop113 2 3
+__coop113 3 -> _reaction125 0 1
+_reaction125 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 5:
+foxo3a 1 -> __coop101 0 2
+mod_1_p85_1_p110 1 -> __coop131 0 2
+forskolin 1 -> __coop131 2 3
+__coop131 3 -> _reaction145 0 1
+_reaction145 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 6:
+foxo3a 1 -> __coop101 0 2
+mod_1_p85_1_p110 1 -> __coop149 0 2
+d8brcamp 1 -> __coop149 2 3
+__coop149 3 -> _reaction163 0 1
+_reaction163 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 7:
+foxo3a 1 -> __coop101 0 2
+mod_1_p85_1_p110 1 -> __coop2 0 2
+appl1_fsh_fshr 1 -> __coop2 2 3
+__coop2 3 -> _reaction2 0 1
+_reaction2 1 -> p110_p85 0 1
+p110_p85 1 -> __coop101 2 3
+__coop101 3 -> _reaction113 0 1
+_reaction113 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1
+
+Solution 8:
+foxo3a 1 -> __coop6 0 2
+pakt 1 -> __coop6 2 3
+__coop6 3 -> _reaction6 0 1
+_reaction6 1 -> foxo3a 1 0
+foxo3a 0 -> transcription 0 1

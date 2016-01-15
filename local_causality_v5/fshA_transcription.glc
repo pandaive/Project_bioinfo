@@ -1,0 +1,123 @@
+process __coop101 3 -> objective __coop101 0 3
+process __coop105 3 -> objective __coop105 0 3
+process __coop106 3 -> objective __coop106 0 3
+process __coop108 3 -> objective __coop108 0 3
+process __coop113 3 -> objective __coop113 0 3
+process __coop131 3 -> objective __coop131 0 3
+process __coop149 3 -> objective __coop149 0 3
+process __coop2 3 -> objective __coop2 0 3
+process __coop54 3 -> objective __coop54 0 3
+process __coop6 3 -> objective __coop6 0 3
+process _reaction113 1 -> objective _reaction113 0 1
+process _reaction117 1 -> objective _reaction117 0 1
+process _reaction118 1 -> objective _reaction118 0 1
+process _reaction120 1 -> objective _reaction120 0 1
+process _reaction125 1 -> objective _reaction125 0 1
+process _reaction145 1 -> objective _reaction145 0 1
+process _reaction163 1 -> objective _reaction163 0 1
+process _reaction2 1 -> objective _reaction2 0 1
+process _reaction6 1 -> objective _reaction6 0 1
+process _reaction64 1 -> objective _reaction64 0 1
+process appl1_fsh_fshr 1 -> objective appl1_fsh_fshr 1 1
+process d8brcamp 1 -> objective d8brcamp 1 1
+process d8cpt2mecamp 1 -> objective d8cpt2mecamp 1 1
+process forskolin 1 -> objective forskolin 1 1
+process foxo3a 0 -> objective foxo3a 1 0
+process foxo3a 1 -> objective foxo3a 0 1
+process foxo3a 1 -> objective foxo3a 1 1
+process mod_1_p85_1_p110 1 -> objective mod_1_p85_1_p110 1 1
+process p110 1 -> objective p110 1 1
+process p110_p85 1 -> objective p110_p85 0 1
+process p85 1 -> objective p85 1 1
+process p85p110 3 -> objective p85p110 0 3
+process pakt 1 -> objective pakt 1 1
+process pfoxo3a 1 -> objective pfoxo3a 0 1
+process transcription 1 -> objective transcription 0 1
+objective __coop101 0 3 -> solution 0
+solution 0 -> process foxo3a 1
+solution 0 -> process p110_p85 1
+objective __coop105 0 3 -> solution 1
+solution 1 -> process d8brcamp 1
+solution 1 -> process p85p110 3
+objective __coop106 0 3 -> solution 2
+solution 2 -> process d8cpt2mecamp 1
+solution 2 -> process mod_1_p85_1_p110 1
+objective __coop108 0 3 -> solution 3
+solution 3 -> process d8cpt2mecamp 1
+solution 3 -> process p85p110 3
+objective __coop113 0 3 -> solution 4
+solution 4 -> process forskolin 1
+solution 4 -> process p85p110 3
+objective __coop131 0 3 -> solution 5
+solution 5 -> process forskolin 1
+solution 5 -> process mod_1_p85_1_p110 1
+objective __coop149 0 3 -> solution 6
+solution 6 -> process d8brcamp 1
+solution 6 -> process mod_1_p85_1_p110 1
+objective __coop2 0 3 -> solution 7
+solution 7 -> process appl1_fsh_fshr 1
+solution 7 -> process mod_1_p85_1_p110 1
+objective __coop54 0 3 -> solution 8
+solution 8 -> process pakt 1
+solution 8 -> process pfoxo3a 1
+objective __coop6 0 3 -> solution 9
+solution 9 -> process foxo3a 1
+solution 9 -> process pakt 1
+objective _reaction113 0 1 -> solution 10
+solution 10 -> process __coop101 3
+objective _reaction117 0 1 -> solution 11
+solution 11 -> process __coop105 3
+objective _reaction118 0 1 -> solution 12
+solution 12 -> process __coop106 3
+objective _reaction120 0 1 -> solution 13
+solution 13 -> process __coop108 3
+objective _reaction125 0 1 -> solution 14
+solution 14 -> process __coop113 3
+objective _reaction145 0 1 -> solution 15
+solution 15 -> process __coop131 3
+objective _reaction163 0 1 -> solution 16
+solution 16 -> process __coop149 3
+objective _reaction2 0 1 -> solution 17
+solution 17 -> process __coop2 3
+objective _reaction6 0 1 -> solution 18
+solution 18 -> process __coop6 3
+objective _reaction64 0 1 -> solution 19
+solution 19 -> process __coop54 3
+objective appl1_fsh_fshr 1 1 -> solution 20
+objective d8brcamp 1 1 -> solution 21
+objective d8cpt2mecamp 1 1 -> solution 22
+objective forskolin 1 1 -> solution 23
+objective foxo3a 0 1 -> solution 24
+solution 24 -> process _reaction64 1
+objective foxo3a 1 0 -> solution 25
+solution 25 -> process _reaction113 1
+objective foxo3a 1 0 -> solution 26
+solution 26 -> process _reaction6 1
+objective foxo3a 1 1 -> solution 27
+objective mod_1_p85_1_p110 1 1 -> solution 28
+objective p110 1 1 -> solution 29
+objective p110_p85 0 1 -> solution 30
+solution 30 -> process _reaction117 1
+objective p110_p85 0 1 -> solution 31
+solution 31 -> process _reaction118 1
+objective p110_p85 0 1 -> solution 32
+solution 32 -> process _reaction120 1
+objective p110_p85 0 1 -> solution 33
+solution 33 -> process _reaction125 1
+objective p110_p85 0 1 -> solution 34
+solution 34 -> process _reaction145 1
+objective p110_p85 0 1 -> solution 35
+solution 35 -> process _reaction163 1
+objective p110_p85 0 1 -> solution 36
+solution 36 -> process _reaction2 1
+objective p85 1 1 -> solution 37
+objective p85p110 0 3 -> solution 38
+solution 38 -> process p110 1
+solution 38 -> process p85 1
+objective pakt 1 1 -> solution 39
+objective pfoxo3a 0 1 -> solution 40
+solution 40 -> process _reaction6 1
+objective pfoxo3a 0 1 -> solution 41
+solution 41 -> process _reaction113 1
+objective transcription 0 1 -> solution 42
+solution 42 -> process foxo3a 0

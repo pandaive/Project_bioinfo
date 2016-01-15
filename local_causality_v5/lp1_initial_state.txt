@@ -1,0 +1,1 @@
+__coop0 3, __coop1 3, __coop2 2, __coop3 2

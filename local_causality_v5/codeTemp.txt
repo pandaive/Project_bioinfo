@@ -1,0 +1,89 @@
+/*
+	private ProcessOrder_v2 ordering(int[] currents, String[] process, List<String[]> processes) {
+		int[] finals = new int[currents.length];
+		for (int i = 0; i < finals.length; i++)
+			finals[i] = -1;
+		finals[stateIndex.get(process[0])] = Integer.parseInt(process[1]); //setting final  state to search for
+		
+		DFS dfs = new DFS(graph.states, graph.edges, graph.getIndexOf(currents), finals, graph.numberOfStates); //finding path
+		List<String[]> result = new ArrayList<String[]>(); //list for processes in correct order
+		List<String[]> adequateActions = new ArrayList<String[]>(); //list for actions made by those processes
+		int[][] actionsSequence = dfs.getArrayOfStates(); //dfs returns sequence of states' changes
+		final int finalStateIndex = stateIndex.get(process[0]); //index of state final state, to use easier later
+		for (int i = 1; i < actionsSequence.length; i++) { //for all states in path given vy dfs
+			if (actionsSequence[i][finalStateIndex] != actionsSequence[i-1][finalStateIndex]) { //if the automaton of final state has been changed
+				for (String[] proc: processes) { //through all processes, we look for the one that caused change
+					if (actionsSequence[i-1][stateIndex.get(proc[0])] == Integer.parseInt(proc[1])) {
+						result.add(proc); //we add to it final list and remove from input list
+						processes.remove(proc);
+						adequateActions.add(findAction(proc[0], proc[1], process[0], //we get the action
+								String.valueOf(actionsSequence[i-1][finalStateIndex]), //actually we could just make the action string
+								String.valueOf(actionsSequence[i][finalStateIndex]), currents)); //of data we have, but it's additional check if everything's ok
+						break;
+					}
+				}
+			}
+		}
+		ProcessOrder_v2 po = new ProcessOrder_v2(result, adequateActions); //return result
+		return po;
+	}
+	*/
+	
+	
+		private String[] findAction(String firstAutomata, String firstState, String secondAutomata,
+			String secondState, String thirdState, int[] currents){ //finding action for the objective, process, from actions array
+		for (int i = 0; i < numberOfActions; i++){
+			if (actions[i][0].equals(firstAutomata) && actions[i][1].equals(firstState)
+					&& actions[i][3].equals(secondAutomata) && actions[i][4].equals(secondState) && actions[i][5].equals(thirdState)){
+				return actions[i];
+			}
+		}
+		/*
+		int[] finals = new int[currents.length];
+		for (int i = 0; i < finals.length; i++)
+			finals[i] = -1;
+		finals[stateIndex.get(secondAutomata)] = Integer.parseInt(thirdState); //setting final  state to search for
+		
+		DFS dfs = new DFS(graph.states, graph.edges, graph.getIndexOf(currents), finals, graph.numberOfStates);
+		if (dfs.isFound) {
+			String[] action = {firstAutomata, firstState, "->", secondAutomata, secondState, thirdState};
+			return action;
+		}
+		*/
+		return temp;
+	}
+
+	/*else { //used in case of redirection, because it adds an action(s) at the beginning
+									List<Solution> tempResult = new ArrayList<Solution>();
+									tempResult.addAll(result);
+									for (Solution sol: tempResult) { //so for all of them we create full solution with those from the "list"
+										result.remove(sol);
+										for (Solution newSol: list) {
+											Solution tempSolution = new Solution(sol.currentStates, sol.listOfActions);
+											tempSolution.currentStates = newSol.currentStates;
+											tempSolution.listOfActions.addAll(newSol.listOfActions);
+											result.add(sol);
+										}
+									}
+								}*/
+								
+								
+	
+							//////ordering
+							List<String[]> adequateActions = new ArrayList<String[]>(); //actions made by each process in solutions
+							List<String[]> processesOrdered = new ArrayList<String[]>(); //and order of those processes
+							//if (solutions.get(solution).size() > 1) { //if there is more than one process, we do the ordering
+								ProcessOrder_v2 po = ordering(solutions.get(solution), process, currentStates);
+								adequateActions.addAll(po.adequateActions);
+								processesOrdered.addAll(po.processes);
+							//}
+							//else { //otherwise, we just put there this one
+								//String[] proc = solutions.get(solution).get(0);
+								//List<String[]> temp = new ArrayList<String[]>();
+								//temp.add(proc);
+								//P/rocessOrder_v2 po = ordering(temp, process, currentStates);
+								//processesOrdered.addAll(po.processes);
+								//adequateActions.addAll(po.adequateActions);
+							//}
+							//////ordering end, in processesOrdered we have order in which we have to apply processes
+							

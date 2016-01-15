@@ -1,0 +1,321 @@
+digraph { 
+N_1[shape=box];
+N_1 -> O_N_0_1;
+
+__act_cro2_1[shape=box];
+__act_cro2_1 -> O___act_cro2_0_1;
+
+__coop0_3[shape=box];
+__coop0_3 -> O___coop0_3_3;
+
+__coop2_3[shape=box];
+__coop2_3 -> O___coop2_2_3;
+
+__coop3_3[shape=box];
+__coop3_3 -> O___coop3_2_3;
+
+__coop4_0[shape=box];
+__coop4_0 -> O___coop4_2_0;
+__coop4_0 -> O___coop4_1_0;
+__coop4_0 -> O___coop4_0_0;
+
+__coop4_1[shape=box];
+__coop4_1 -> O___coop4_2_1;
+__coop4_1 -> O___coop4_0_1;
+
+__coop4_2[shape=box];
+__coop4_2 -> O___coop4_1_2;
+__coop4_2 -> O___coop4_0_2;
+
+__inh_CI_1[shape=box];
+__inh_CI_1 -> O___inh_CI_0_1;
+
+cI_0[shape=box];
+cI_0 -> O_cI_2_0;
+cI_0 -> O_cI_1_0;
+cI_0 -> O_cI_0_0;
+
+cI_1[shape=box];
+cI_1 -> O_cI_2_1;
+cI_1 -> O_cI_0_1;
+
+cI_2[shape=box];
+cI_2 -> O_cI_1_2;
+cI_2 -> O_cI_0_2;
+
+cII_1[shape=box];
+cII_1 -> O_cII_0_1;
+
+cro_0[shape=box];
+cro_0 -> O_cro_2_0;
+cro_0 -> O_cro_1_0;
+cro_0 -> O_cro_3_0;
+cro_0 -> O_cro_0_0;
+
+cro_1[shape=box];
+cro_1 -> O_cro_2_1;
+cro_1 -> O_cro_3_1;
+cro_1 -> O_cro_0_1;
+
+cro_2[shape=box];
+cro_2 -> O_cro_1_2;
+cro_2 -> O_cro_3_2;
+cro_2 -> O_cro_0_2;
+
+cro_3[shape=box];
+cro_3 -> O_cro_2_3;
+cro_3 -> O_cro_1_3;
+cro_3 -> O_cro_0_3;
+O_N_0_1[label="N 0 1"];
+pintsol0[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_N_0_1 -> pintsol0;
+pintsol0 -> __coop0_3;
+
+O___act_cro2_0_1[label="__act_cro2 0 1"];
+pintsol1[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___act_cro2_0_1 -> pintsol1;
+pintsol1 -> __coop4_0;
+pintsol2[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___act_cro2_0_1 -> pintsol2;
+pintsol2 -> __coop4_1;
+pintsol3[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___act_cro2_0_1 -> pintsol3;
+pintsol3 -> __coop4_2;
+
+O___coop0_3_3[label="__coop0 3 3"];
+pintsol4[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop0_3_3 -> pintsol4;
+
+
+O___coop2_2_3[label="__coop2 2 3"];
+pintsol5[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop2_2_3 -> pintsol5;
+pintsol5 -> N_1;
+
+O___coop3_2_3[label="__coop3 2 3"];
+pintsol6[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop3_2_3 -> pintsol6;
+pintsol6 -> cro_1;
+pintsol7[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop3_2_3 -> pintsol7;
+pintsol7 -> cro_2;
+pintsol8[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop3_2_3 -> pintsol8;
+pintsol8 -> cro_3;
+
+O___coop4_0_0[label="__coop4 0 0"];
+pintsol9[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_0_0 -> pintsol9;
+
+
+O___coop4_0_1[label="__coop4 0 1"];
+O___coop4_0_1 -> O___coop4_2_1;
+pintsol10[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_0_1 -> pintsol10;
+pintsol10 -> cro_3;
+
+O___coop4_0_2[label="__coop4 0 2"];
+pintsol11[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_0_2 -> pintsol11;
+pintsol11 -> cI_2;
+
+O___coop4_1_0[label="__coop4 1 0"];
+O___coop4_1_0 -> O___coop4_2_0;
+pintsol12[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_0 -> pintsol12;
+pintsol12 -> cro_0;
+pintsol13[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_0 -> pintsol13;
+pintsol13 -> cro_1;
+pintsol14[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_0 -> pintsol14;
+pintsol14 -> cro_2;
+
+O___coop4_1_2[label="__coop4 1 2"];
+O___coop4_1_2 -> O___coop4_0_2;
+pintsol15[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_2 -> pintsol15;
+pintsol15 -> cI_2;
+pintsol15 -> cro_0;
+pintsol16[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_2 -> pintsol16;
+pintsol16 -> cI_2;
+pintsol16 -> cro_1;
+pintsol17[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_1_2 -> pintsol17;
+pintsol17 -> cI_2;
+pintsol17 -> cro_2;
+
+O___coop4_2_0[label="__coop4 2 0"];
+O___coop4_2_0 -> O___coop4_1_0;
+pintsol18[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_2_0 -> pintsol18;
+pintsol18 -> cI_0;
+pintsol19[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_2_0 -> pintsol19;
+pintsol19 -> cI_1;
+
+O___coop4_2_1[label="__coop4 2 1"];
+O___coop4_2_1 -> O___coop4_0_1;
+pintsol20[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_2_1 -> pintsol20;
+pintsol20 -> cI_0;
+pintsol20 -> cro_3;
+pintsol21[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___coop4_2_1 -> pintsol21;
+pintsol21 -> cI_1;
+pintsol21 -> cro_3;
+
+O___inh_CI_0_1[label="__inh_CI 0 1"];
+pintsol22[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O___inh_CI_0_1 -> pintsol22;
+pintsol22 -> __coop3_3;
+
+O_cI_0_0[label="cI 0 0"];
+pintsol23[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_0_0 -> pintsol23;
+
+
+O_cI_0_1[label="cI 0 1"];
+pintsol24[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_0_1 -> pintsol24;
+pintsol24 -> cII_1;
+pintsol25[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_0_1 -> pintsol25;
+pintsol25 -> cro_0;
+
+O_cI_0_2[label="cI 0 2"];
+pintsol26[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_0_2 -> pintsol26;
+pintsol26 -> cII_1;
+pintsol27[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_0_2 -> pintsol27;
+pintsol27 -> cro_0;
+
+O_cI_1_0[label="cI 1 0"];
+O_cI_1_0 -> O_cI_2_0;
+pintsol28[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_1_0 -> pintsol28;
+pintsol28 -> __inh_CI_1;
+
+O_cI_1_2[label="cI 1 2"];
+pintsol29[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_1_2 -> pintsol29;
+pintsol29 -> cro_0;
+pintsol30[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_1_2 -> pintsol30;
+pintsol30 -> cII_1;
+
+O_cI_2_0[label="cI 2 0"];
+O_cI_2_0 -> O_cI_1_0;
+pintsol31[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_2_0 -> pintsol31;
+pintsol31 -> __inh_CI_1;
+
+O_cI_2_1[label="cI 2 1"];
+O_cI_2_1 -> O_cI_0_1;
+pintsol32[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cI_2_1 -> pintsol32;
+pintsol32 -> __inh_CI_1;
+
+O_cII_0_1[label="cII 0 1"];
+pintsol33[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cII_0_1 -> pintsol33;
+pintsol33 -> __coop2_3;
+
+O_cro_0_0[label="cro 0 0"];
+pintsol34[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_0 -> pintsol34;
+
+
+O_cro_0_1[label="cro 0 1"];
+O_cro_0_1 -> O_cro_3_1;
+O_cro_0_1 -> O_cro_2_1;
+pintsol35[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_1 -> pintsol35;
+pintsol35 -> cI_0;
+pintsol36[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_1 -> pintsol36;
+pintsol36 -> cI_1;
+
+O_cro_0_2[label="cro 0 2"];
+O_cro_0_2 -> O_cro_3_2;
+O_cro_0_2 -> O_cro_1_2;
+pintsol37[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_2 -> pintsol37;
+pintsol37 -> cI_0;
+pintsol38[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_2 -> pintsol38;
+pintsol38 -> cI_1;
+
+O_cro_0_3[label="cro 0 3"];
+pintsol39[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_3 -> pintsol39;
+pintsol39 -> __act_cro2_1;
+pintsol39 -> cI_0;
+pintsol40[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_0_3 -> pintsol40;
+pintsol40 -> __act_cro2_1;
+pintsol40 -> cI_1;
+
+O_cro_1_0[label="cro 1 0"];
+pintsol41[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_1_0 -> pintsol41;
+pintsol41 -> cI_2;
+
+O_cro_1_2[label="cro 1 2"];
+O_cro_1_2 -> O_cro_3_2;
+O_cro_1_2 -> O_cro_0_2;
+pintsol42[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_1_2 -> pintsol42;
+pintsol42 -> cI_0;
+pintsol43[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_1_2 -> pintsol43;
+pintsol43 -> cI_1;
+
+O_cro_1_3[label="cro 1 3"];
+O_cro_1_3 -> O_cro_2_3;
+O_cro_1_3 -> O_cro_0_3;
+pintsol44[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_1_3 -> pintsol44;
+pintsol44 -> __act_cro2_1;
+pintsol44 -> cI_0;
+pintsol45[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_1_3 -> pintsol45;
+pintsol45 -> __act_cro2_1;
+pintsol45 -> cI_1;
+
+O_cro_2_0[label="cro 2 0"];
+pintsol46[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_2_0 -> pintsol46;
+pintsol46 -> cI_2;
+
+O_cro_2_1[label="cro 2 1"];
+O_cro_2_1 -> O_cro_0_1;
+pintsol47[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_2_1 -> pintsol47;
+pintsol47 -> cI_2;
+
+O_cro_2_3[label="cro 2 3"];
+O_cro_2_3 -> O_cro_1_3;
+O_cro_2_3 -> O_cro_0_3;
+pintsol48[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_2_3 -> pintsol48;
+pintsol48 -> __act_cro2_1;
+
+O_cro_3_0[label="cro 3 0"];
+pintsol49[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_3_0 -> pintsol49;
+pintsol49 -> cI_2;
+
+O_cro_3_1[label="cro 3 1"];
+O_cro_3_1 -> O_cro_0_1;
+pintsol50[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_3_1 -> pintsol50;
+pintsol50 -> cI_2;
+
+O_cro_3_2[label="cro 3 2"];
+pintsol51[label="",shape=circle,fixedsize=true,width=0.1,height=0.1];
+O_cro_3_2 -> pintsol51;
+
+}

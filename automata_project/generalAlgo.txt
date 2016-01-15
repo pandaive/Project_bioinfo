@@ -1,0 +1,131 @@
+HashMap<solution, List<process>> processes;
+HashMap<process, List<objective>> objectives;
+HashMap<objective, List<objective>> objectives_redirected;
+HashMap<objective, List<solution>> solutions
+Stack<process> processesStack;
+List<objective> redirections;
+List<Paths> redirectionPaths;
+
+Class Path {int[] currentStates, List<action> listOfActions};
+
+function cycleDetect(process x) {
+	for each process p in processesStack {
+		if (x == p)
+			return true;
+	}
+	return false;
+}
+
+function getObjective(process x, objectiveForced f, currentStates c) {
+	if (f != null) {
+		return f;
+	}
+	else if (objectives.containsKey(x)) {
+		for each objective o in objectives[x] {
+			if (o.i == c[a])
+				return o;
+		}
+	}
+	else
+		return null;
+}
+
+function redirection(process x, path p, boolean redirectedBefore){
+	for each redirection y in redirections
+		if (x[a] == y[r][a] && x[i] == y[r][i]) {
+			redirections <- redirections - y;
+			processToFind <- {y[r][a], y[r][i]};
+			processStack.push(processToFind);
+			List<Paths> tmpResult = {};
+			tmpResult <- solve(p.currentStates, processToFind, y[r], true);
+			for each path r in tmpResult {
+				if (!redirectedBefore)
+					redirectionPaths <- redirectionPaths + r;
+			}
+		}
+}
+
+function saveRedirection(objective x){
+	if (objectives_redirected.containsKey(x))
+		for each objective o in objectives_redirected[x]
+			redirections <- redirections + {x, o};
+}
+
+function checkRedirections(process x) {
+	List<Paths> paths = {};
+	if (redirectionPaths != null) {
+		for all paths p in redirectionPaths {
+			lastAction <- p.listOfActions[lastElement];
+			if (lastAction[b] == x[a] && lastAction[k] == x[i])
+			paths <- paths + p;
+			redirectionPaths <- redirectionPaths - p;
+		}
+	}
+	return paths;
+}
+
+function solve(currentStates c, process p, objectiveForced f, boolean redirection) {
+	if (c[p.a] != p.i) {
+		if ((objective = getObjective(p, f, c)) != null) {
+			saveRedirection();
+			if (solutions.containsKey(objective)) {
+				for each solutions s in solutions[objective] {
+					if (processes.containsKey(s)) {
+						processesOrderedList <- ordering(processes[s]);
+						List<Paths> listOfResult = {};
+						listOfResult <- listOfResult + Path(c, emptyList);
+						error <- false; cycle <- false;
+						for each process x in processesOrderedList {
+							if (cycleDetect(x) == true) {
+								cycle <- true;
+								break;
+							}
+							processStack.push(x);
+							for each result r in listOfResult {
+								List<Paths> tmpResult = {};
+								tmpResult <- solve(r.currentStates, x, null, redirection);
+								if (tmpResult == null) {
+									error <- true;
+									break;
+								}
+								tmpResult <- tmpResult + checkRedirections(x);
+								additionalActionsList <- actions performed by x;
+								for all result tr in tmpResult {
+									if (additionalActionsList[0].i != tr.currentStates[a]) {
+										error <- true;
+										break;
+									}
+									listOfResults <- listOfResults + tr;
+									listOfResults[tr].currentStates[additionalActionsList[lastElement][b]] = additionalActionsList[lastElement][k];
+									listOfResults[tr].listOfActions <- listOfResult[tr].listOfActions + additionalActionsList;
+									redirection(x, listOfResults[tr], redirection);
+								}
+							}
+						}
+						if (!cycle && !error)
+							result <- result + listOfResults;
+						else
+							cycle = error <- false;
+					}
+					else
+						continue;
+					if (oneSolution == true)
+						break;
+				}
+			}
+			else {
+				processStack.pop();
+				return null;
+			}
+		}
+		else {
+			processStack.pop();
+			return null;
+		}
+	}
+	else {
+		processStack.pop();
+		result <- result + Path(c, emptyList);
+		return result;
+	}
+}

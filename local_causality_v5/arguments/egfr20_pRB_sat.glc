@@ -1,0 +1,62 @@
+process AKT1 1 -> objective AKT1 0 1
+process CDK2 1 -> objective CDK2 0 1
+process CDK2CDK4CDK6 7 -> objective CDK2CDK4CDK6 0 7
+process CDK4 1 -> objective CDK4 0 1
+process CDK6 1 -> objective CDK6 0 1
+process CycD1 1 -> objective CycD1 0 1
+process CycD1p21p27 4 -> objective CycD1p21p27 0 4
+process CycE1 1 -> objective CycE1 0 1
+process CycE1p21p27 4 -> objective CycE1p21p27 0 4
+process EGF 1 -> objective EGF 1 1
+process ERBB2 1 -> objective ERBB2 0 1
+process ERBB2ERBB3 3 -> objective ERBB2ERBB3 0 3
+process ERBB2_3 1 -> objective ERBB2_3 0 1
+process ERBB3 1 -> objective ERBB3 0 1
+process ERalpha 1 -> objective ERalpha 0 1
+process ERalphaMYCAKT1MEK1 15 -> objective ERalphaMYCAKT1MEK1 0 15
+process MEK1 1 -> objective MEK1 0 1
+process MYC 1 -> objective MYC 0 1
+process pRB 1 -> objective pRB 0 1
+objective AKT1 0 1 -> solution 0
+solution 0 -> process ERBB2_3 1
+objective CDK2 0 1 -> solution 1
+solution 1 -> process CycE1p21p27 4
+objective CDK2CDK4CDK6 0 7 -> solution 2
+solution 2 -> process CDK2 1
+solution 2 -> process CDK4 1
+solution 2 -> process CDK6 1
+objective CDK4 0 1 -> solution 3
+solution 3 -> process CycD1p21p27 4
+objective CDK6 0 1 -> solution 4
+solution 4 -> process CycD1 1
+objective CycD1 0 1 -> solution 5
+solution 5 -> process ERalphaMYCAKT1MEK1 15
+objective CycD1p21p27 0 4 -> solution 6
+solution 6 -> process CycD1 1
+objective CycE1 0 1 -> solution 7
+solution 7 -> process MYC 1
+objective CycE1p21p27 0 4 -> solution 8
+solution 8 -> process CycE1 1
+objective EGF 1 1 -> solution 9
+objective ERBB2 0 1 -> solution 10
+solution 10 -> process EGF 1
+objective ERBB2ERBB3 0 3 -> solution 11
+solution 11 -> process ERBB2 1
+solution 11 -> process ERBB3 1
+objective ERBB2_3 0 1 -> solution 12
+solution 12 -> process ERBB2ERBB3 3
+objective ERBB3 0 1 -> solution 13
+solution 13 -> process EGF 1
+objective ERalpha 0 1 -> solution 14
+solution 14 -> process MEK1 1
+objective ERalphaMYCAKT1MEK1 0 15 -> solution 15
+solution 15 -> process AKT1 1
+solution 15 -> process ERalpha 1
+solution 15 -> process MEK1 1
+solution 15 -> process MYC 1
+objective MEK1 0 1 -> solution 16
+solution 16 -> process ERBB2_3 1
+objective MYC 0 1 -> solution 17
+solution 17 -> process MEK1 1
+objective pRB 0 1 -> solution 18
+solution 18 -> process CDK2CDK4CDK6 7

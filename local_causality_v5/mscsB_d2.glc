@@ -1,0 +1,41 @@
+process a 0 -> objective a 1 0
+process a 0 -> objective a 0 0
+process a 1 -> objective a 0 1
+process b 0 -> objective b 2 0
+process b 0 -> objective b 1 0
+process b 1 -> objective b 2 1
+process b 1 -> objective b 0 1
+process b 1 -> objective b 1 1
+process b 2 -> objective b 0 2
+process b 2 -> objective b 1 2
+process c 1 -> objective c 0 1
+process d 1 -> objective d 2 1
+process d 1 -> objective d 0 1
+process d 2 -> objective d 1 2
+process d 2 -> objective d 0 2
+objective a 0 0 -> solution 0
+objective a 0 1 -> solution 1
+solution 1 -> process b 1
+objective b 0 1 -> solution 2
+solution 2 -> process c 1
+objective b 0 2 -> solution 3
+solution 3 -> process d 1
+objective b 1 0 -> solution 4
+solution 4 -> process a 1
+objective b 1 1 -> solution 5
+objective b 1 2 -> objective b 0 2
+objective b 1 2 -> solution 6
+solution 6 -> process a 1
+solution 6 -> process d 1
+objective c 0 1 -> solution 7
+solution 7 -> process a 0
+objective d 0 1 -> solution 8
+solution 8 -> process b 0
+objective d 0 2 -> objective d 1 2
+objective d 0 2 -> solution 9
+solution 9 -> process b 0
+solution 9 -> process b 1
+objective d 0 2 -> solution 10
+solution 10 -> process b 2
+objective d 1 2 -> solution 11
+solution 11 -> process b 1

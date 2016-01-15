@@ -1,0 +1,5 @@
+process cI 2 -> objective cI 0 2
+objective cI 0 2 -> solution 3
+solution 3 -> process cro 0
+process cro 0 -> objective cro 0 0
+objective cro 0 0 -> solution 6
